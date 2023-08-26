@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-25T11:29:52 IST" name="Default suite" finished-at="2023-08-25T11:30:21 IST" duration-ms="29050">
+    <groups>
+    </groups>
+    <test started-at="2023-08-25T11:29:52 IST" name="Default test" finished-at="2023-08-25T11:30:21 IST" duration-ms="29050">
+      <class name="vtigerFinalScripts.CreateAndDuplicateLeadTest">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:vtigerFinalScripts.CreateAndDuplicateLeadTest@31ea9581]" started-at="2023-08-25T11:29:52 IST" name="classSetup" finished-at="2023-08-25T11:29:54 IST" duration-ms="2034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:vtigerFinalScripts.CreateAndDuplicateLeadTest@31ea9581]" started-at="2023-08-25T11:29:54 IST" name="methodSetup" finished-at="2023-08-25T11:29:59 IST" duration-ms="5340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="createAndDuplicateLeadTest()[pri:0, instance:vtigerFinalScripts.CreateAndDuplicateLeadTest@31ea9581]" started-at="2023-08-25T11:29:59 IST" name="createAndDuplicateLeadTest" finished-at="2023-08-25T11:30:18 IST" duration-ms="19291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndDuplicateLeadTest -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:vtigerFinalScripts.CreateAndDuplicateLeadTest@31ea9581]" started-at="2023-08-25T11:30:18 IST" name="methodTearDown" finished-at="2023-08-25T11:30:20 IST" duration-ms="1903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:vtigerFinalScripts.CreateAndDuplicateLeadTest@31ea9581]" started-at="2023-08-25T11:30:20 IST" name="classTearDown" finished-at="2023-08-25T11:30:21 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- vtigerFinalScripts.CreateAndDuplicateLeadTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
