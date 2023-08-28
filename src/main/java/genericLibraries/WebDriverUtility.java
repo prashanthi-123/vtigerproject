@@ -25,7 +25,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  * This class contains all reusable methods to perform driver related operations
  * @author TRACK QSPIDERS
  */
-public class WebDriverUtility {
+  public class WebDriverUtility {
 	private WebDriver driver;
 	private WebDriverWait wait;
 

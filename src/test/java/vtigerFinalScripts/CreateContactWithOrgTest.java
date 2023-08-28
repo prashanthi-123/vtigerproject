@@ -11,7 +11,7 @@ import genericLibraries.IconstantPath;
 
 public class CreateContactWithOrgTest extends BaseClass{
        @Test   
-	public void createContactWithOrgTest() {
+    public void createContactWithOrgTest() {
    	 SoftAssert soft=new SoftAssert();
    	 home.clickContacts();
    	 soft.assertTrue(driver.getTitle().contains("Contacts"));
