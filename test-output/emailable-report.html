@@ -9,13 +9,16 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">21,250</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">14,352</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">vtigerFinalScripts.CreateLeadTest</td><td><a href="#m0">createLeadTest</a></td><td rowspan="1">1693144773747</td><td rowspan="1">10065</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">vtigerFinalScripts.CreateEventTest</td><td><a href="#m0">createEventTest</a></td><td rowspan="1">1693488955503</td><td rowspan="1">4842</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">vtigerFinalScripts.CreateLeadTest#createLeadTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Row.createCell(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; is null
-	at genericLibraries.ExcelUtility.writeToExcel(ExcelUtility.java:124)
-	at vtigerFinalScripts.CreateLeadTest.createLeadTest(CreateLeadTest.java:22)
+<h2>Default test</h2><h3 id="m0">vtigerFinalScripts.CreateEventTest#createEventTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NumberFormatException: For input string: &quot;10/18/25&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at pompages.CreateNewEventPage.chooserequiredDate(CreateNewEventPage.java:48)
+	at vtigerFinalScripts.CreateEventTest.createEventTest(CreateEventTest.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

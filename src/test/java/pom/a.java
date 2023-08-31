@@ -1,18 +1,16 @@
-package vtigerFinalScripts;
+package pom;
 
 import java.util.Map;
 
-import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import genericLibraries.BaseClass;
 import genericLibraries.IconstantPath;
 
-public class CreateEventTest  extends BaseClass{
-            @Test
-	public void createEventTest()  {
+public class a {
+          
+	public void createEventTest() {
 	      
-		    SoftAssert soft=new SoftAssert();
+		SoftAssert soft=new SoftAssert();
 		     Map<String, String> map=excel.readFromExcel("EventsTestData", "Create New Event");
 		     home.selectFromQuickCreate(web,map.get("Quick Create"));
 		     soft.assertEquals(createEvent.getPageHeader(),"Create To Do");
@@ -29,11 +27,8 @@ public class CreateEventTest  extends BaseClass{
 		     else
 		    	 excel.writeToExcel("EventsTestData", "Create New Event", "Fail" ,IconstantPath.EXCEL_PATH);
 		     
-		    soft.assertAll();
-            }
-}
+		    soft.assertAll();	 
 		     
 
-	
-
-
+	}
+}

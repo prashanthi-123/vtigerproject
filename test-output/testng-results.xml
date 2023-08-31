@@ -2,28 +2,31 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-27T19:29:25 IST" name="Default suite" finished-at="2023-08-27T19:29:46 IST" duration-ms="21250">
+  <suite started-at="2023-08-31T19:05:48 IST" name="Default suite" finished-at="2023-08-31T19:06:02 IST" duration-ms="14352">
     <groups>
     </groups>
-    <test started-at="2023-08-27T19:29:25 IST" name="Default test" finished-at="2023-08-27T19:29:46 IST" duration-ms="21250">
-      <class name="vtigerFinalScripts.CreateLeadTest">
-        <test-method is-config="true" signature="classSetup()[pri:0, instance:vtigerFinalScripts.CreateLeadTest@31ea9581]" started-at="2023-08-27T19:29:25 IST" name="classSetup" finished-at="2023-08-27T19:29:27 IST" duration-ms="1913" status="PASS">
+    <test started-at="2023-08-31T19:05:48 IST" name="Default test" finished-at="2023-08-31T19:06:02 IST" duration-ms="14352">
+      <class name="vtigerFinalScripts.CreateEventTest">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:vtigerFinalScripts.CreateEventTest@31ea9581]" started-at="2023-08-31T19:05:48 IST" name="classSetup" finished-at="2023-08-31T19:05:50 IST" duration-ms="1843" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classSetup -->
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:vtigerFinalScripts.CreateLeadTest@31ea9581]" started-at="2023-08-27T19:29:27 IST" name="methodSetup" finished-at="2023-08-27T19:29:33 IST" duration-ms="6352" status="PASS">
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:vtigerFinalScripts.CreateEventTest@31ea9581]" started-at="2023-08-31T19:05:50 IST" name="methodSetup" finished-at="2023-08-31T19:05:55 IST" duration-ms="5159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetup -->
-        <test-method signature="createLeadTest()[pri:0, instance:vtigerFinalScripts.CreateLeadTest@31ea9581]" started-at="2023-08-27T19:29:33 IST" name="createLeadTest" finished-at="2023-08-27T19:29:43 IST" duration-ms="10065" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="createEventTest()[pri:0, instance:vtigerFinalScripts.CreateEventTest@31ea9581]" started-at="2023-08-31T19:05:55 IST" name="createEventTest" finished-at="2023-08-31T19:06:00 IST" duration-ms="4842" status="FAIL">
+          <exception class="java.lang.NumberFormatException">
             <message>
-              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Row.createCell(int)" because the return value of "org.apache.poi.ss.usermodel.Sheet.getRow(int)" is null]]>
+              <![CDATA[For input string: "10/18/25"]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Row.createCell(int)" because the return value of "org.apache.poi.ss.usermodel.Sheet.getRow(int)" is null
-at genericLibraries.ExcelUtility.writeToExcel(ExcelUtility.java:124)
-at vtigerFinalScripts.CreateLeadTest.createLeadTest(CreateLeadTest.java:22)
+              <![CDATA[java.lang.NumberFormatException: For input string: "10/18/25"
+at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+at java.base/java.lang.Integer.parseInt(Integer.java:668)
+at java.base/java.lang.Integer.parseInt(Integer.java:786)
+at pompages.CreateNewEventPage.chooserequiredDate(CreateNewEventPage.java:48)
+at vtigerFinalScripts.CreateEventTest.createEventTest(CreateEventTest.java:22)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -54,19 +57,19 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.NumberFormatException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createLeadTest -->
-        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:vtigerFinalScripts.CreateLeadTest@31ea9581]" started-at="2023-08-27T19:29:43 IST" name="methodTearDown" finished-at="2023-08-27T19:29:46 IST" duration-ms="2423" status="PASS">
+        </test-method> <!-- createEventTest -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:vtigerFinalScripts.CreateEventTest@31ea9581]" started-at="2023-08-31T19:06:00 IST" name="methodTearDown" finished-at="2023-08-31T19:06:02 IST" duration-ms="1912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTearDown -->
-        <test-method is-config="true" signature="classTearDown()[pri:0, instance:vtigerFinalScripts.CreateLeadTest@31ea9581]" started-at="2023-08-27T19:29:46 IST" name="classTearDown" finished-at="2023-08-27T19:29:46 IST" duration-ms="442" status="PASS">
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:vtigerFinalScripts.CreateEventTest@31ea9581]" started-at="2023-08-31T19:06:02 IST" name="classTearDown" finished-at="2023-08-31T19:06:02 IST" duration-ms="546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classTearDown -->
-      </class> <!-- vtigerFinalScripts.CreateLeadTest -->
+      </class> <!-- vtigerFinalScripts.CreateEventTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

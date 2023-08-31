@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\kemid\AppData\Local\Temp\testng-eclipse-1138325715\testng-customsuite.xml</span>
+                    <span>C:\Users\kemid\AppData\Local\Temp\testng-eclipse-1067948790\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="vtigerFinalScripts.CreateLeadTest" class="method navigator-link" hash-for-method="createLeadTest">createLeadTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="vtigerFinalScripts.CreateEventTest" class="method navigator-link" hash-for-method="createEventTest">createEventTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -121,17 +121,20 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">vtigerFinalScripts.CreateLeadTest</span>
+              <span class="class-name">vtigerFinalScripts.CreateEventTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createLeadTest">
-                  </a> <!-- createLeadTest -->
-                  <span class="method-name">createLeadTest</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Row.createCell(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; is null
-	at genericLibraries.ExcelUtility.writeToExcel(ExcelUtility.java:124)
-	at vtigerFinalScripts.CreateLeadTest.createLeadTest(CreateLeadTest.java:22)
+                  <a name="createEventTest">
+                  </a> <!-- createEventTest -->
+                  <span class="method-name">createEventTest</span>
+                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;10/18/25&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at pompages.CreateNewEventPage.chooserequiredDate(CreateNewEventPage.java:48)
+	at vtigerFinalScripts.CreateEventTest.createEventTest(CreateEventTest.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -169,7 +172,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\kemid\AppData\Local\Temp\testng-eclipse-1138325715\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\kemid\AppData\Local\Temp\testng-eclipse-1067948790\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -178,7 +181,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;vtigerFinalScripts.CreateLeadTest&quot;/&gt;
+      &lt;class name=&quot;vtigerFinalScripts.CreateEventTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -220,14 +223,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'createLeadTest')
-data.setCell(0, 2, 'vtigerFinalScripts.CreateLeadTest')
-data.setCell(0, 3, 10065);
+data.setCell(0, 1, 'createEventTest')
+data.setCell(0, 2, 'vtigerFinalScripts.CreateEventTest')
+data.setCell(0, 3, 4842);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -253,28 +256,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">vtigerFinalScripts.CreateLeadTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">vtigerFinalScripts.CreateEventTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">classSetup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">methodSetup</span>
-                <span class="method-start">1927 ms</span>
+                <span class="method-start">1851 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">createLeadTest</span>
-                <span class="method-start">8284 ms</span>
+                <span class="method-name">createEventTest</span>
+                <span class="method-start">7010 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">methodTearDown</span>
-                <span class="method-start">18360 ms</span>
+                <span class="method-start">11868 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">classTearDown</span>
-                <span class="method-start">20784 ms</span>
+                <span class="method-start">13784 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

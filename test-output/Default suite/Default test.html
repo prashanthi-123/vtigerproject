@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Aug 27 19:29:25 IST 2023</td>
+<td>Started on:</td><td>Thu Aug 31 19:05:48 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>21 seconds (21250 ms)</td>
+<tr><td>Total time:</td><td>14 seconds (14352 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,10 +76,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='vtigerFinalScripts.CreateLeadTest.createLeadTest()'><b>createLeadTest</b><br>Test class: vtigerFinalScripts.CreateLeadTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Row.createCell(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; is null
-	at genericLibraries.ExcelUtility.writeToExcel(ExcelUtility.java:124)
-	at vtigerFinalScripts.CreateLeadTest.createLeadTest(CreateLeadTest.java:22)
+<td title='vtigerFinalScripts.CreateEventTest.createEventTest()'><b>createEventTest</b><br>Test class: vtigerFinalScripts.CreateEventTest</td>
+<td><div><pre>java.lang.NumberFormatException: For input string: &quot;10/18/25&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at pompages.CreateNewEventPage.chooserequiredDate(CreateNewEventPage.java:48)
+	at vtigerFinalScripts.CreateEventTest.createEventTest(CreateEventTest.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,10 +111,13 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1939282277", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1939282277'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Row.createCell(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; is null
-	at genericLibraries.ExcelUtility.writeToExcel(ExcelUtility.java:124)
-	at vtigerFinalScripts.CreateLeadTest.createLeadTest(CreateLeadTest.java:22)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1837602497", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1837602497'><pre>java.lang.NumberFormatException: For input string: &quot;10/18/25&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at pompages.CreateNewEventPage.chooserequiredDate(CreateNewEventPage.java:48)
+	at vtigerFinalScripts.CreateEventTest.createEventTest(CreateEventTest.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -141,8 +147,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>10</td>
-<td>vtigerFinalScripts.CreateLeadTest@31ea9581</td></tr>
+<td>4</td>
+<td>vtigerFinalScripts.CreateEventTest@31ea9581</td></tr>
 </table><p>
 </body>
 </html>

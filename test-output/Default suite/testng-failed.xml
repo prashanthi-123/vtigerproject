@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="vtigerFinalScripts.CreateLeadTest">
+      <class name="vtigerFinalScripts.CreateEventTest">
         <methods>
           <include name="methodSetup"/>
           <include name="classSetup"/>
           <include name="methodTearDown"/>
           <include name="classTearDown"/>
-          <include name="createLeadTest"/>
+          <include name="createEventTest"/>
         </methods>
-      </class> <!-- vtigerFinalScripts.CreateLeadTest -->
+      </class> <!-- vtigerFinalScripts.CreateEventTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
